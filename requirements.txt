@@ -1,0 +1,4 @@
+package-name==0.1
+protobuf==3.3.0
+py3-ortools==6.4.4495
+six==1.11.0
