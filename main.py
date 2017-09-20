@@ -1,3 +1,4 @@
+from cp_solver import cp_solver
 from linear_optimization import linear_optimization
 from n_queens import n_queens, print_n_queens
 
@@ -20,10 +21,12 @@ def play_linear_optimization():
 
 
 if __name__ == "__main__":
-    print("Example number : 1.nQueens, 2.linear optimization")
+    print("Example number : 1.nQueens, 2.linear optimization, 3.cp_solver")
     selected = input("select solver example : ")
     
     if selected is "1":
         play_n_queens()
     elif selected is "2":
         play_linear_optimization()
+    elif selected is "3":
+        cp_solver()
