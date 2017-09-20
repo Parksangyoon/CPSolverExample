@@ -34,7 +34,8 @@ def print_n_queens(queens, solver, n):
     while solver.NextSolution():
         # Displays the solution just computed.
         board = ""
-        for i in range(n): board += " _"
+        for i in range(n):
+            board += " _"
         board += "\n"
         for i in range(n):
             board += "|"
@@ -42,10 +43,8 @@ def print_n_queens(queens, solver, n):
                 if queens[j].Value() == i:
                     # There is a queen in column j, row i.
                     board += "Q|"
-                    # print("Q", end="|")
                 else:
                     board += "_|"
-                    # print("_", end="|")
             board += "\n"
         print(board)
         num_solutions += 1
