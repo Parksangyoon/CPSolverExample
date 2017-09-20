@@ -1,6 +1,7 @@
 from cp_solver import cp_solver
 from linear_optimization import linear_optimization
 from n_queens import n_queens, print_n_queens
+from nurse_scheduler import nurse
 
 
 def play_n_queens():
@@ -21,7 +22,7 @@ def play_linear_optimization():
 
 
 if __name__ == "__main__":
-    print("Example number : 1.nQueens, 2.linear optimization, 3.cp_solver")
+    print("Example number : 1.nQueens, 2.linear optimization, 3.cp_solver, 4.nurse schedule")
     selected = input("select solver example : ")
     
     if selected is "1":
@@ -30,3 +31,5 @@ if __name__ == "__main__":
         play_linear_optimization()
     elif selected is "3":
         cp_solver()
+    elif selected is "4":
+        nurse()
