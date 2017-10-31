@@ -1,4 +1,15 @@
+certifi==2017.7.27.1
+chardet==3.0.4
+gspread==0.6.2
+httplib2==0.10.3
+idna==2.6
+oauth2client==4.1.2
 package-name==0.1
 protobuf==3.3.0
 py3-ortools==6.4.4495
+pyasn1==0.3.7
+pyasn1-modules==0.1.5
+requests==2.18.4
+rsa==3.4.2
 six==1.11.0
+urllib3==1.22
